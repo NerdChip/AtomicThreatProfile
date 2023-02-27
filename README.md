@@ -40,6 +40,9 @@ Use -h to invoke help
 
 ![image](https://user-images.githubusercontent.com/67340007/221681397-08b1e5a8-632e-4b53-b678-ea3959aeec15.png)
 
+To run AtomicThreatProfile you will need to pass the prevously create json file (-f) and the threat group name (-t), these areguments are required. You can also specify which operating system you want the techniques to be related to (-p) at the moment only windows is supported, this arguement is optional and the default is "all". 
 
+`python3 AtomicThreatProfile.py -f LazarusGroup.json -t LazarusGroup`
+`python3 AtomicThreatProfile.py -f LazarusGroup.json -t LazarusGroup -p windows`
 
-
+![image](https://user-images.githubusercontent.com/67340007/221683374-b6be1aff-5e8c-4e72-8c91-942645a26ed0.png)
