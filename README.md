@@ -38,17 +38,8 @@ Use -h to invoke help
 
 `python3 AtomicThreatProfile.py -h`
 
-`{usage: AtomicThreatProfile.py [-h] -f FILE -t THREATGROUP [-p PLATFORM]
+![image](https://user-images.githubusercontent.com/67340007/221681397-08b1e5a8-632e-4b53-b678-ea3959aeec15.png)
 
-Python Script that creates custom adversary profiles for use in caldera
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -f FILE, --file FILE  Name of the saved json file for chosen threat group
-  -t THREATGROUP, --threatgroup THREATGROUP
-                        Name of the threat group, this is the name that will appear in caldera
-  -p PLATFORM, --platform PLATFORM
-                        Specifies a platform related to techniques i.e windows, default is all platforms
-}`
 
 
