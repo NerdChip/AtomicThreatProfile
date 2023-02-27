@@ -38,7 +38,7 @@ Use -h to invoke help
 
 `python3 AtomicThreatProfile.py -h`
 
-`usage: AtomicThreatProfile.py [-h] -f FILE -t THREATGROUP [-p PLATFORM]
+`{usage: AtomicThreatProfile.py [-h] -f FILE -t THREATGROUP [-p PLATFORM]
 
 Python Script that creates custom adversary profiles for use in caldera
 
@@ -49,6 +49,6 @@ optional arguments:
                         Name of the threat group, this is the name that will appear in caldera
   -p PLATFORM, --platform PLATFORM
                         Specifies a platform related to techniques i.e windows, default is all platforms
-`
+}`
 
 
