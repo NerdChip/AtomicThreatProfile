@@ -30,7 +30,25 @@ After you have chosen an adversary scroll down the page and you will see, Advers
 Once the data has been copied it will be pasted inside a new json file create on the system where Caldera and AtomicThreatProfile are inlsalled. Please remember to create the file in the same working directory as AtomicThreatProfile - Another tip would be to make sure the filename resembles that of the selected threat group. Dont forget to elevate to root priveleges. 
 
 `nano LazarusGroup.json`
+
 ![image](https://user-images.githubusercontent.com/67340007/221679704-61bb726a-0b34-4004-8755-dc7839266d2e.png)
 
+## AtomicThreatProfile 
+Use -h to invoke help 
+
+`python3 AtomicThreatProfile.py -h`
+
+`usage: AtomicThreatProfile.py [-h] -f FILE -t THREATGROUP [-p PLATFORM]
+
+Python Script that creates custom adversary profiles for use in caldera
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f FILE, --file FILE  Name of the saved json file for chosen threat group
+  -t THREATGROUP, --threatgroup THREATGROUP
+                        Name of the threat group, this is the name that will appear in caldera
+  -p PLATFORM, --platform PLATFORM
+                        Specifies a platform related to techniques i.e windows, default is all platforms
+`
 
 
