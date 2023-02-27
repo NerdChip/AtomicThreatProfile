@@ -21,3 +21,16 @@ Fill in the one or multiple critera and select a single adversary on the right h
 
 ![image](https://user-images.githubusercontent.com/67340007/221676871-380ff4d6-dd67-4dee-acba-c11cb61f8bbd.png)
 
+## Copy json Data
+After you have chosen an adversary scroll down the page and you will see, Adversary Profile, ATT&CK Navigator Layer (TTPs) and Diamond Model. we will be using the ATT&CK Navigator json data to create the custom adversary profile, click inside the the box and copy the data (ctrl-a & ctrl-c).  
+
+![image](https://user-images.githubusercontent.com/67340007/221678087-59d4fa46-ba5d-43b8-84c3-3a3ec3da52e7.png)
+
+## Generate json File 
+Once the data has been copied it will be pasted inside a new json file create on the system where Caldera and AtomicThreatProfile are inlsalled. Please remember to create the file in the same working directory as AtomicThreatProfile - Another tip would be to make sure the filename resembles that of the selected threat group. Dont forget to elevate to root priveleges. 
+
+`nano LazarusGroup.json`
+![image](https://user-images.githubusercontent.com/67340007/221679704-61bb726a-0b34-4004-8755-dc7839266d2e.png)
+
+
+
