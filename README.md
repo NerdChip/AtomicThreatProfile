@@ -47,7 +47,7 @@ To run AtomicThreatProfile you will need to pass the prevously create json file 
 
 ![image](https://user-images.githubusercontent.com/67340007/221683374-b6be1aff-5e8c-4e72-8c91-942645a26ed0.png)
 
-Once the program has completed some check the user will be prompted to select which techniques they want to include within the custom adversary profile, to select a technique you use **space bar** to confirm selection use **Enter** (you can select multiple under 1 technique)
+Once the program has completed some checks the user will be prompted to select which techniques they want to include within the custom adversary profile, to select a technique you use **space bar** to confirm selection use **Enter** (you can select multiple under 1 technique)
 
 if a mistake is made during this process you will have to re-execute the program. please remember that these profiles will only be generated based on the techniques that Caldera has within its framework. 
 
