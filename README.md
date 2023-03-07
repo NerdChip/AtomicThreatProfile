@@ -60,7 +60,7 @@ Once the selection phase has been completed AtomicThreatProfile will move the ge
 Important for me to note, some techniques require additional configurations in order to get them working, i would advise getting familiar with Caldera before using AtomicThreatProfile 
 
 # Contributing 
-if you have any suggestion on how I can improve the functionality of the code or features you would want to see please reach out to me.
+if you have any feedback on how I can improve the functionality of AtomicThreatProfile, the code or any feature suggestions please reach out to me.
 
 # Features 
 I would like to continuting improving this tool so here are some ideas I have at time of writing:
