@@ -53,3 +53,17 @@ if a mistake is made during this process you will have to re-execute the program
 
 ![image](https://user-images.githubusercontent.com/67340007/221684638-6082807a-aae8-4c24-aa57-12a151fda733.png)
 
+Once the selection phase has been completed AtomicThreatProfile will move the generated file into the required folder for Caldera to load. image below shows our custom profile ready for use in Caldera:
+
+![image](https://user-images.githubusercontent.com/67340007/223540507-5777e9e7-a901-49e9-8487-14c4560612fd.png)
+
+Important for me to note, some techniques require additional configurations in order to get them working, i would advise getting familiar with Caldera before using AtomicThreatProfile 
+
+# Contributing 
+if you have any suggestion on how I can improve the functionality of the code or features you would want to see please reach out to me.
+
+# Features 
+I would like to continuting improving this tool so here are some ideas I have at time of writing:
+- Threading (faster)
+- Remove requirement for json file (Automatic generation based on threat group name)
+- Develop as app for integration into Caldera
